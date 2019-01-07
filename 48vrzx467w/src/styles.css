@@ -1,0 +1,156 @@
+body {
+  /* margin: -5px; */
+  /* width: 1024px; */
+  background: white;
+  /* margin-top: 50px; */
+  border: 1px solid #ccc;
+  padding: 10px;
+  font-family: "Segoe UI", "Ubuntu", "verdana";
+}
+
+.month {
+  width: 366px;
+  border: 1px solid #ccc;
+  display: inline-block;
+  margin: 10px;
+  padding: 5px;
+  padding-left: 10px;
+  height: 566px;
+  vertical-align: top;
+}
+
+html {
+  /* background: #CCC; */
+}
+
+header {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.btn-primary {
+  color: black;
+  background-color: #ccc;
+  border-color: #a5a5a5;
+}
+div#gotoCY {
+  display: inline-block;
+  margin: 10px;
+  text-align: center;
+}
+
+#CY {
+  display: inline-block;
+  margin-left: 10px;
+}
+a#CY-1 {
+  /* float: left; */
+  display: inline-block;
+  position: absolute;
+  left: 10px;
+  font-weight: bold;
+  top: 14px;
+  cursor: pointer;
+}
+
+a#CY1 {
+  display: inline-block;
+  position: absolute;
+  right: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  top: 14px;
+}
+a {
+  color: #eee !important;
+}
+nav {
+  height: auto;
+  position: relative;
+  margin-top: 10px;
+  padding: 10px;
+  background: #0078d7;
+  margin: -10px;
+  border: 1px solid #ccc;
+  color: white;
+}
+
+div#selectHolder {
+  /* display: inline-block; */
+  text-align: center;
+}
+
+div#main {
+  margin-top: 20px;
+  text-align: center;
+}
+
+div#CY-1:hover {
+  text-decoration: underline;
+}
+
+div#CY1:hover {
+  text-decoration: underline;
+}
+
+table.table.table-sm {
+  width: 200px;
+}
+.month span {
+  /* width: 30px; */
+  display: inline-block;
+  /* height: 30px; */
+  padding: 20px;
+  /* background: #CCC; */
+  cursor: pointer;
+  margin: 0;
+  width: 49px !important;
+}
+
+.month span:hover {
+  background: #eee;
+}
+
+span.name {
+  background: #eeeeee;
+}
+
+.monthname {
+  font-weight: bold;
+  text-align: center;
+  font-size: 25px;
+  padding: 10px;
+}
+
+.dropdown.dropCal {
+  width: 300px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.birthday {
+  background: pink !important;
+}
+
+.holiday {
+  background: purple !important;
+  color: white;
+}
+
+.aniversary {
+  background: blue !important;
+  color: white;
+}
+
+.busy {
+  background: red !important;
+  color: white;
+}
+footer {
+  text-align: center;
+}
+
+select {
+  color: black;
+}
